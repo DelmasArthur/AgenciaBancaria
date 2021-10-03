@@ -8,6 +8,12 @@ namespace AgenciaBancaria.Dominio
 {
     public class Cliente
     {
+
+        public Cliente(string nome, string cpf, string rg, string logradouro, string cep, string cidade, string estado)
+        {
+            
+        }
+
         public string Nome { get; private set; }
         public string CPF { get; private set; }
         public string RG { get; private set; }

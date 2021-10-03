@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AgenciaBancaria.Dominio;
+using System;
 
 namespace AgenciaBancaria.App
 {
@@ -6,7 +7,8 @@ namespace AgenciaBancaria.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Cliente cliente = new Cliente();
+            
         }
     }
 }
