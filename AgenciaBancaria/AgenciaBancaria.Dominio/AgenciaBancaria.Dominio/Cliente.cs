@@ -12,21 +12,15 @@ namespace AgenciaBancaria.Dominio
         public Cliente(
             string nome, 
             string cpf, 
-            string rg, 
-            string logradouro, 
-            string cep, 
-            string cidade, 
-            string estado)
+            string rg,
+            Endereco endereco)
         {
-
 
             Nome = nome.ValidaStringVazia();
             CPF = cpf.ValidaStringVazia();
             RG = rg.ValidaStringVazia();
-            Logradouro = logradouro.ValidaStringVazia();
-            CEP = cep.ValidaStringVazia();
-            Cidade = cidade.ValidaStringVazia();
-            Estado = estado.ValidaStringVazia();
+            Endereco = endereco ?? throw new Exception("Endereço deve ser informado.");
+            
         }
 
        
@@ -34,11 +28,8 @@ namespace AgenciaBancaria.Dominio
         public string Nome { get; private set; }
         public string CPF { get; private set; }
         public string RG { get; private set; }
-        //Endereço
-        public string Logradouro { get; set; }
-        public string CEP { get; set; }
-        public string Cidade { get; set; }
-        public string Estado { get; set; }
+        public Endereco Endereco { get; private set; }
+        
 
     }
 }
