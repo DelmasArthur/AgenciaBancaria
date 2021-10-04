@@ -9,10 +9,27 @@ namespace AgenciaBancaria.Dominio
     public class Cliente
     {
 
-        public Cliente(string nome, string cpf, string rg, string logradouro, string cep, string cidade, string estado)
+        public Cliente(
+            string nome, 
+            string cpf, 
+            string rg, 
+            string logradouro, 
+            string cep, 
+            string cidade, 
+            string estado)
         {
-            
+
+
+            Nome = nome.ValidaStringVazia();
+            CPF = cpf.ValidaStringVazia();
+            RG = rg.ValidaStringVazia();
+            Logradouro = logradouro.ValidaStringVazia();
+            CEP = cep.ValidaStringVazia();
+            Cidade = cidade.ValidaStringVazia();
+            Estado = estado.ValidaStringVazia();
         }
+
+       
 
         public string Nome { get; private set; }
         public string CPF { get; private set; }
