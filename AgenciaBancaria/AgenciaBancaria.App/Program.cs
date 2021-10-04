@@ -21,7 +21,8 @@ namespace AgenciaBancaria.App
                     "1234567",
                     endereco);
 
-                ContaBancaria conta = new ContaBancaria(cliente);
+                ContaCorrente conta = new ContaCorrente(cliente);
+
                 Console.WriteLine("Conta criada: " + conta.NumeroConta + "-" + conta.DigitoVerificador + "  / Situacao:" + conta.Situacao );
 
                 conta.Abrir("abcd1234");
