@@ -7,15 +7,24 @@ namespace AgenciaBancaria.App
     {
         static void Main(string[] args)
         {
-            Cliente cliente = new Cliente(
-                "Arthur", 
-                "12345678900",
-                "1234567",
-                "Rua Teste",
-                "12345678",
-                "Recife",
-                "PE"
-                );
+            try
+            {
+                Endereco endereco = new Endereco(
+                    "Rua Teste",
+                    "12345678",
+                    "Recife",
+                    "PE");
+
+                Cliente cliente = new Cliente(
+                    "Arthur",
+                    "12345678900",
+                    "1234567",
+                    endereco);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             
         }
     }
