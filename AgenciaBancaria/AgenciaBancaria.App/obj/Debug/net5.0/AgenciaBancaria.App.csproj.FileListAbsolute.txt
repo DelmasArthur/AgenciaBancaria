@@ -14,3 +14,6 @@ C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\Agenci
 C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.App\obj\Debug\net5.0\ref\AgenciaBancaria.App.dll
 C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.App\obj\Debug\net5.0\AgenciaBancaria.App.pdb
 C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.App\obj\Debug\net5.0\AgenciaBancaria.App.genruntimeconfig.cache
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.App\bin\Debug\net5.0\AgenciaBancaria.Dominio.dll
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.App\bin\Debug\net5.0\AgenciaBancaria.Dominio.pdb
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.App\obj\Debug\net5.0\AgenciaBancaria.App.csproj.CopyComplete

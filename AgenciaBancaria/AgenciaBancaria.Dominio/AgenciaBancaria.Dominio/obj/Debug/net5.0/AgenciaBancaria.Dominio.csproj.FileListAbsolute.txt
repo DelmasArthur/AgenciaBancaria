@@ -1,0 +1,12 @@
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\bin\Debug\net5.0\AgenciaBancaria.Dominio.deps.json
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\bin\Debug\net5.0\AgenciaBancaria.Dominio.dll
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\bin\Debug\net5.0\ref\AgenciaBancaria.Dominio.dll
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\bin\Debug\net5.0\AgenciaBancaria.Dominio.pdb
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.csproj.AssemblyReference.cache
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.AssemblyInfoInputs.cache
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.AssemblyInfo.cs
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.dll
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\ref\AgenciaBancaria.Dominio.dll
+C:\Users\Arthur Delmas\Documents\DIO\workspace\AgBancaria\AgenciaBancaria\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.pdb

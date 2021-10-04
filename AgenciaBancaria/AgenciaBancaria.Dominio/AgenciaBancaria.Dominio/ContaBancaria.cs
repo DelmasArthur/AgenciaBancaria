@@ -2,12 +2,46 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace AgenciaBancaria.Dominio
 {
     public class ContaBancaria
     {
+        public ContaBancaria(Cliente cliente)
+        {
+            Random random = new Random();
+            NumeroConta = random.Next(50000, 99999);
+            DigitoVerificador = random.Next(1, 9);
+            Situacao = SituacaoConta.Criada;
+
+            Cliente = cliente ?? throw new Exception("Cliente deve ser informado");
+        }
+
+        //metodo = acao
+        public void Abrir(string senha)
+        {
+            SetSenha(senha);
+            
+            Situacao = SituacaoConta.Aberta;
+            DataAbertura = DateTime.Now;
+        }
+
+        //validacao tamanho da senha
+        private void SetSenha(string senha)
+        {
+            //validacao, mas atribuindo a ela mesmo
+            Senha = senha.ValidaStringVazia();
+
+            if (!Regex.IsMatch(senha, @"^(?=.*?[a-z])(?=.*?[0-9]).{8,}$"))
+            {
+                throw new Exception("Senha invalida");
+            }
+
+            Senha = senha;
+        }
+
         public int NumeroConta { get; init; }
         public int DigitoVerificador { get; init; }
         public decimal Saldo { get; protected set; }

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace AgenciaBancaria.Dominio
 {
     //Enumerador
-    public enum SituacaoConta
+    public enum SituacaoConta : int
     {
-        Criada,
-        Aberta,
-        Encerrada
+        Criada = 1,
+        Aberta = 2,
+        Encerrada = 3
     }
 }

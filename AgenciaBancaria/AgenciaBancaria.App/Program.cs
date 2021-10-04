@@ -20,6 +20,13 @@ namespace AgenciaBancaria.App
                     "12345678900",
                     "1234567",
                     endereco);
+
+                ContaBancaria conta = new ContaBancaria(cliente);
+                Console.WriteLine("Conta criada: " + conta.NumeroConta + "-" + conta.DigitoVerificador + "  / Situacao:" + conta.Situacao );
+
+                conta.Abrir("abcd1234");
+
+                Console.WriteLine("Conta criada: " + conta.NumeroConta + "-" + conta.DigitoVerificador + "  / Situacao:" + conta.Situacao);
             }
             catch (Exception ex)
             {
