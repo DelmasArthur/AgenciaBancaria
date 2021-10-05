@@ -42,7 +42,7 @@ namespace AgenciaBancaria.Dominio
             Senha = senha;
         }
 
-        public void Sacar(decimal valor, string senha)
+        public virtual void Sacar(decimal valor, string senha)
         {
             if (Senha != senha)
                 throw new Exception("Senha invalida");

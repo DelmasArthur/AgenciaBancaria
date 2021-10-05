@@ -15,6 +15,18 @@ namespace AgenciaBancaria.Dominio
             LIS = lis;
         }
 
+        public override void Sacar(decimal valor, string senha)
+        {
+            if (Senha != senha)
+                throw new Exception("Senha invalida");
+
+            if ((Saldo+LIS) < valor)
+                throw new Exception("Saldo insuficiente");
+
+            Saldo -= valor;
+
+
+        }
         public decimal LIS { get; private set; }
 
         public decimal ValorManutencao { get; private set; }

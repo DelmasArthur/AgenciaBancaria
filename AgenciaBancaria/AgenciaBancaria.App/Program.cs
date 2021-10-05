@@ -31,6 +31,8 @@ namespace AgenciaBancaria.App
                 Console.WriteLine("Conta criada: " + conta.NumeroConta + "-" + conta.DigitoVerificador + "  / Situacao:" + conta.Situacao);
 
                 conta.Sacar(10, senha);
+
+                Console.WriteLine("Saldo: R$" + conta.Saldo);
             }
             catch (Exception ex)
             {
